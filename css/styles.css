@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    color: rgb(10, 0, 0);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+/*Conceptos padres e hijos*/
+/*Inicio*/
+
+section article {
+    background-color: rgb(0, 0, 0);
+}
+
+section article {
+    background-color: rgb(255, 255, 255);
+}
+
+/*Miembros*/
+main article {
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*Selector de clase*/
+.letra-grande {
+    font-size: 30px;
+    
+}
+
+.letra-grandess {
+    font-size: 45px;
+    
+}
+
+.white {
+    color: rgb(0, 0, 0);
+}
+
+
+ol li {
+     color: white;
+    }
+
+ h2 {
+    text-align: center;
+    font-family: "Kashima Demo.ort";
+ }
+
+ h1 {
+    text-align: center;
+    
+ }
+
+ h3 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+ }
+
+ /*TIPOS DE FUENTES*/
+ @font-face {
+    font-family: "Kashima Demo.ort";
+    src: url(../fonts/Kashima\ Demo.otf);
+}
+
+p {
+    font-family: 'Saira', sans-serif;
+}
+
+/*Espacio externo- márgenes*/
+.caja {
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+ /*BORDES*/
+    border: inset 2px white;
+}
+
+  /*Display*/
+  .menú-nav  li {
+    display: inline;
+    margin-right: 50px;
+  }  
+
+  /*Modificación del tamaño de las imagenes*/
+.Imagen-inicial {
+    width: 2100px;
+    transition: 5s;
+}
+
+.logo-inicial {
+    width: 100px;
+}
+
+.Uniforme-foto {
+    width: 1900px;
+    transition: 5s;
+}
+
+.Director-imagen {
+    width: 100px;
+    transition: 5s;
+}
+img:hover{
+    transform:scale(0.98);
+}
+
+.Satoru-imagen {
+    width: 100px;
+    transition: 5s;
+}
+
+.Atsuya-imagen{
+    width: 100px;
+    transition: 5s;
+}
+
+.Megumi-imagen {
+    width: 100px;
+    transition: 5s;
+}
+
+.Nobara-imagen {
+    width: 100px;
+    transition: 5s;
+}
+
+.Itadori-imagen {
+    width: 100px;
+    transition: 5s;
+}
+
+.Yuta-imagen{
+    width: 100px;
+    transition: 5s;
+}
+
+.Toge-imagen {
+    width: 100px;
+    transition: 5s;
+}
+
+.Panda-imagen {
+    width: 100px;
+    transition: 5s;
+}
+
+.Maki-imagen {
+    width: 100px;
+    transition: 5s;
+}
+
+.Kinji-imagen {
+    width: 100px;
+    transition: 5s;
+}
+
+.Kirara-imagen {
+    width: 100px;
+    transition: 5s;
+}
+
+.Shoko-imagen {
+    width: 100px;
+    transition: 5s;
+}
+
+.Kiyotaka-imagen {
+    width: 100px;
+    transition: 5s;
+}
+
+.Kiyotaka-imagen {
+    width: 100px;
+    transition: 5s;
+}
+
+.Akari-imagen {
+    width: 100px;
+    transition: 5s;
+}
+
+
+/*FLEXBOX*/
+.menú-nav {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/*MAX-WIDTH*/
+img {
+    max-width: 100%;
+}
+
+header{
+    background-color: transparent;
+ }
+
+/*GRIDS*/
+body {
+    display: grid;
+     grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer ";
+    text-align: center;
+}
+
+body {
+    grid-area: main;
+}
+
+header {
+    grid-area: header;
+}
+
+
+footer {
+    grid-area: footer;
+    background-color: rgb(253, 73, 73);
+    padding: 10px;
+    align-content: center;
+}
+
+
+@media (max-width:480px){
+    body{
+        background-color: white;
+    }
+ }
+
+ /*DESKTOP FIRST*/
+
+ body{
+    background-color: white;
+
+ }
+
+ @media(max-width: 991px){
+    body{
+        background-color: white;
+    }
+ }
+ 
+ @media(max-width:480px){
+    body{
+        background-color: white;
+    }
+ }
+
+ /*MOBILE FIRST*/
+ @media(min-width:320px){
+    body{
+        background-color: white;
+    }
+ }
+
+ @media(min-width:576px){
+    body{
+        background-color: white;
+    }
+ }
+
+ @media(min-width:110px){
+    body{
+        background-color: white;
+    }
+ }
+
+
+ ul {
+    list-style-type: none;
+ }
+
+header nav ul li a:link{
+    color:white;
+ }
+
+header nav ul li a:visited{
+    color: white;
+ }
+
+ header nav ul li a:hover{
+    color: yellow;
+ }
+
+ header nav ul li a:active{
+    color:red;
+ }
+
+
+ main article h2 div h3 p{
+    display: flex;
+ }
+
+ fieldset {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+ 
+ .Derecha{
+    display: flex;
+ }
+
+ 
